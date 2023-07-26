@@ -6,11 +6,12 @@ import About from "./About";
 import Services from "./Services";
 import Navbar from "./Navbar";
 import { Route, Routes } from "react-router-dom";
+import react from "@vitejs/plugin-react-swc";
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <>Navbar</>
 
       <Home />
       <Routes>
@@ -23,4 +24,4 @@ const App = () => {
   );
 };
 
-export default Navbar;
+export default react;
